@@ -1,0 +1,124 @@
+@font-face {
+	font-family: "titre";
+	src: url('Quantum.otf');
+}
+html{
+	background-color:#3A5D9D;
+}
+body{
+	background-color:#3A5D9D;
+}
+article{
+	background-color:#A5A5A5;
+	color:white;
+	font-family: sans-serif;
+	margin:25px;
+}
+article p{
+	margin:10px;
+}
+article a{
+	text-decoration:none;
+	color:white;
+}
+article a:hover{
+	text-decoration:underline white;
+}
+section{
+	background-color:#FEFEFF;
+}
+header{
+	background-color:#3A5D9D;
+	font-family: sans-serif;
+	color:white;
+	text-align:center;
+	border-bottom:3px solid white;
+	width:100%;
+	max-width: 700px;
+	min-width: 0px;
+}
+header div{
+	display:inline-block;
+}
+h1{
+	text-align:center;
+}
+#cercle{
+    width:400px;
+    background:#FEFFFF;
+    height:50px;
+    text-align:center;
+    border-radius:150px;
+	line-height: 50px;
+	font-family:"titre";
+	font-size:20px;
+	color:black;
+}
+#ordi{
+  width : 100px; height : 100px;
+  border: none;
+  -moz-border-radius : 100px;
+  -webkit-border-radius : 100px;
+  border-radius : 45px;
+}
+#code{
+  width : 100px; height : 100px;
+  border: none;
+  -moz-border-radius : 100px;
+  -webkit-border-radius : 100px;
+  border-radius : 45px;
+}
+footer{
+	color:white;
+	border-top:3px solid white;
+	font-family:sans-serif;
+	text-align:center;
+	text-decoration:none;
+	position:center;
+}
+#pied{
+display:inline_block;
+}
+#div1, #div3{
+	width:5%;
+	margin:0;
+}
+#div2{
+	width:80%
+}
+img{
+	width:25%;
+	height:25%;
+}
+.cliquer a img {
+	display:none;
+} 
+.cliquer a:hover img{
+	display:block;
+}
+article a{
+	text-decoration:underline;
+	color:white;
+	font-family:sans-serif;
+}
+article a:hover{
+	text-decoration:underline white;
+}
+header a{
+	text-decoration:none;
+	color:white;
+}
+dt{
+	text-align:center;
+	text-decoration:underline;
+}
+#photo1{max-width:100%;width:675px;height:450px}
+#photo2{max-width:100%;width:400px;height:600px}
+#photo3{max-width:100%;width:675px;height:450px}
+#photo4{max-width:100%;width:675px;height:450px}
+#fond{
+	background-repeat: no-repeat;
+	float: left;
+	width: 280px;
+	height: 140px;
+}

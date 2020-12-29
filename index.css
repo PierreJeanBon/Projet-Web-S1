@@ -1,0 +1,857 @@
+@font-face {
+	font-family: "titre";
+	src: url('Quantum.otf');
+}
+html{
+	background-color:#3A5D9D;
+}
+.article{
+	background-color:rgba(165, 165, 165, 0.9);
+	color:white;
+	font-family: sans-serif;
+	background-repeat:no-repeat;
+}
+.section{
+	background-image:url('images/fond.jpg');
+	background-size:1700px;		
+	margin:auto;
+	max-width:1700px;
+	min-width:800px;	
+	background-color:#FEFEFF;
+}
+.article p{
+	margin:10px;
+}
+.article dl{
+	margin:10px;
+}
+.article a{
+	text-decoration:underline;
+	color:white;
+}
+.article a:hover{
+	text-decoration:underline white;
+}
+header{
+	background-color:#3A5D9D;
+	font-family: sans-serif;
+	color:white;
+	text-align:center;
+	border-bottom:3px solid white;
+	width:100%;
+	max-width: 1900px;
+	min-width: 800px;
+}
+header div{
+	display:inline-block;
+}
+.titre{
+	text-align:center;	
+	text-decoration:underline;
+}
+.ptitre{
+	text-align:center;
+}
+#cercle{
+    width:700px;
+    background:#FEFFFF;
+    height:50px;
+    text-align:center;
+    border-radius:150px;
+	line-height: 50px;
+	font-family:"titre";
+	font-size:32px;
+	color:black;
+}
+#ordi{
+  width : 150px; height : 150px;
+  border: none;
+  -moz-border-radius : 100px;
+  -webkit-border-radius : 100px;
+  border-radius : 45px;
+}
+#code{
+  width : 150px; height : 150px;
+  border: none;
+  -moz-border-radius : 100px;
+  -webkit-border-radius : 100px;
+  border-radius : 45px;
+}
+.cliquer a img {
+	display:none;
+} 
+.cliquer a:hover img{
+	display:block;
+}
+a{
+	text-decoration:none
+	}
+code{
+	font-family:sans-serif;
+	text-decoration:underline;
+}
+#date{
+	font-weight:bold;
+	text-decoration:underline;
+}
+.defbio{
+	text-align:center;
+	text-decoration:underline;	
+	font-size:1.2em;
+}
+#bio{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#texte{
+	font-size:1.3em;
+}
+figcaption{
+	text-align:center;
+}
+#div1, #div3{
+	width:5%;
+	margin:0;
+}
+#div2{
+	width:80%
+}
+#video{
+	text-align:center;
+}
+#illu1 img{
+	border-radius:35%;
+	width:15%;
+	float:right;
+	margin:20px;
+}
+#illu2 img{
+	width:15%;
+	border-radius:15%;
+}
+#illu2{
+	text-align:center;
+}
+.article li{
+	padding-bottom:1em;
+}
+footer{
+	text-align:center;
+	font-family:sans-serif;
+	color:white;
+	border-top:2px solid white
+}
+#pied{
+display:inline-block}
+
+
+
+
+
+
+
+
+
+
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:20em;
+}
+#menu-demo2 li:first-child{
+background-color:#005CFF;
+}
+#menu-demo2 li:nth-child(2){
+background-color:#005CFF;
+}
+#menu-demo2 li:nth-child(3){
+background-color:#005CFF;
+}
+#menu-demo2 li:last-child{
+background-color:#005CFF;
+}
+#menu-demo2 li:first-child li{
+background:#8E8B88;
+}
+#menu-demo2 li:nth-child(2) li{
+background:#8E8B88;
+}
+#menu-demo2 li:nth-child(3) li{
+background:#8E8B88;
+}
+#menu-demo2 li:last-child li{
+background:#8E8B88;
+}
+#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+background:#009FFF;
+}
+#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+background:#009FFF;
+}
+#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:#009FFF;
+}
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background:#009FFF;
+}
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#menu-demo2 ul a{
+padding:5px 0;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:#000;
+}
+#slid{
+    margin: 0;
+}
+#slider {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+	width:300px;
+	float:right;
+}
+
+#slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+#slides figure {
+    display: inline-block;
+    width: 100vw;
+    margin: 0;
+}
+
+#slides figure img {
+	width:200px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#slides figure figcaption {
+    position: absolute;
+    bottom: 0;
+	padding:2,5em;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+	font-family:sans-serif;
+}
+@keyframes slide {
+    0%, 20%, 100% {
+        left: 0;
+    }
+    35%, 50% {
+        left: -100vw;
+    }
+    70%, 95% {
+        left: -200vw;
+    }
+}
+#slides {
+
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+ios_section{
+	background-image: url('images/fond.jpg');
+	background-size: 1900px;
+}
+
+.ios_article{
+	border: solid 1px rgba(165, 165, 165, 0.9);
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	color: white;
+	background-color: rgba(165, 165, 165, 0.9);
+		margin-top:50px;
+	font-family:sans-serif;
+}
+
+.ios_titre1{
+	font-size: 75px;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+	text-align:center;
+}
+.ios_titre2{
+	font-size:40px;
+	font-style: italic;
+}
+#ios_first{
+	background-image: url('images/ios_first.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#ios_second{
+	background-image: url('images/ios_second.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#ios_third{
+	background-image: url('images/ios_third.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#ios_4{
+	background-image: url('images/ios_4.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#ios_5{
+	background-image: url('images/ios_5.jpg');
+	background-position: right top;
+	background-size:80px;
+	background-repeat: no-repeat;
+}
+#ios_6{
+	background-image: url('images/ios_6.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#ios_7{
+	background-image: url('images/ios_7.png');
+	background-position: right top;
+	background-size:80px;
+	background-repeat: no-repeat;
+}
+#ios_8{
+	background-image: url('images/ios_8.png');
+	background-position: right top;
+	background-size:80px;
+	background-repeat: no-repeat;
+}
+#ios_9{
+	background-image: url('images/ios_9.png');
+	background-position: right top;
+	background-size:80px;
+	background-repeat: no-repeat;
+}
+#ios_10{
+	background-image: url('images/ios_10.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#ios_11{
+	background-image: url('images/ios_11.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#ios_12{
+	background-image: url('images/ios_12.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+
+.gif_jobs{
+	width: 70px;
+	height: 100px;
+	padding: 8px;
+	margin-left:1200px
+}
+
+section.ios_section{
+	background-image: url('images/fond.jpg');
+	background-size: 1900px;
+}
+section a{
+	color: white;
+	text-decoration: underline;
+}
+
+
+android
+
+
+.android_article{
+	border: solid 1px rgba(165, 165, 165, 0.9);
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	color: white;
+	background-color: rgba(165, 165, 165, 0.9);
+	margin-bottom:50px solid white;
+	font-family:sans-serif;
+}
+.android_titre1{
+	font-size: 75px;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+	text-align:center;
+}
+.android_titre2{
+	font-size:40px;
+	font-style: italic;
+}
+#android_alpha{
+	background-image: url('images/android_alpha.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#android_beta{
+	background-image: url('images/android_beta.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#android_cupcake{
+	background-image: url('images/android_cupcake.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#android_donut{
+	background-image: url('images/android_donut.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_eclair{
+	background-image: url('images/android_eclair.png');
+	background-position: right top;
+	background-size:120px;
+	background-repeat: no-repeat;
+}
+#android_froyo{
+	background-image: url('images/android_froyo.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_gingerbread{
+	background-image: url('images/android_gingerbread.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_honeycomb{
+	background-image: url('images/android_honeycomb.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_icecreamsandwich{
+	background-image: url('images/android_icecreamsandwich.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_jellybean{
+	background-image: url('images/android_jellybean.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#android_kitkat{
+	background-image: url('images/android_kitkat.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#android_lollipop{
+	background-image: url('images/android_lollipop.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#android_marshmallow{
+	background-image: url('images/android_marshmallow.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_nougat{
+	background-image: url('images/android_nougat.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_oreo{
+	background-image: url('images/android_oreo.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat: no-repeat;
+}
+#android_pie{
+	background-image: url('images/android_pie.png');
+	background-position: right top;
+	background-size:150px;
+	background-repeat: no-repeat;
+}
+section.android_section{
+	background-image: url('images/fond.jpg');
+	background-size: 1900px
+}
+.android_article{
+	border: solid 1px rgba(165, 165, 165, 0.9);
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	color: white;
+	background-color: rgba(165, 165, 165, 0.9);
+	margin-top:50px;
+	font-family:sans-serif;
+}
+section a{
+	color: white;
+	text-decoration: underline;
+}
+
+
+fedora
+
+
+
+.fedora_liste{
+	list-style-type: square;
+}
+.fedora_titre1{
+	font-size: 75px;
+	color: white;
+	font-weight: bold;
+	text-align:center;
+	font-family:sans-serif;
+}
+.fedora_titre2{
+	font-weight: bold;
+		font-family:sans-serif;
+		color:white;
+}
+.fedora_titre3{
+ font-style: italic;
+ 	font-family:sans-serif;
+	color:white;
+}
+
+.fedora_article{
+border: solid 1px rgba(165, 165, 165, 0.9);
+border-radius: 10px;
+padding: 7px;
+background-image: url('images/fedora_logo.png');
+background-repeat: no-repeat;
+background-position: right top;
+background-size: 75px;
+background-color: rgba(165, 165, 165, 0.9);
+	margin-top:50px;
+	font-family:sans-serif;
+	color:white;
+}
+.logo_fedora_evolution{
+	float: right;
+	margin-left: 20px;
+	padding:5px;
+	width:180px;
+	height:50px;
+}
+section.fedora_section{
+	background-image: url('images/fond.jpg');
+	background-size:1900px;
+}
+section a{
+	color: white;
+	text-decoration: underline;
+}
+
+
+Windows
+
+
+table{
+	margin: ;
+	max-width:100px;
+	height:100px;
+	background-color:#8E8B88;
+	border: solid 2px black;
+	margin-top:20px;
+}
+.windows_titre1{
+	font-family: sans-serif;
+	font-size: 75px;
+	color: white;
+	text-align:center;
+}
+.windows_td{
+	text-align:center;
+	border: solid 2px black;
+}
+a:hover{
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.windows_article{
+	border: solid 1px rgba(165, 165, 165, 0.9);
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	color: white;
+	background-color: rgba(165, 165, 165, 0.9);
+		margin-top:50px;
+	font-family:sans-serif;
+}
+.windows_dt{
+	font-style: italic;
+}
+#windows_1{
+	background-image: url('images/windows_1.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#windows_95{
+	background-image: url('images/windows_95.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#windows_nt{
+	background-image: url('images/windows_nt.png');
+	background-position: right top;
+	background-size:75px;
+	background-repeat: no-repeat;
+}
+#windows_xp{
+	background-image: url('images/windows_xp.png');
+	background-position: right top;
+	background-size:140px;
+	background-repeat: no-repeat;
+}
+#windows_2000{
+	background-image: url('images/windows_2000.png');
+	background-position: right top;
+	background-size:80px;
+	background-repeat: no-repeat;
+}
+#windows_vista{
+	background-image: url('images/windows_vista.png');
+	background-position: right top;
+	background-size:100px;
+	background-repeat:no-repeat
+}
+#windows_7{
+	background-image: url('images/windows_7.png');
+	background-position: right top;
+	background-size:70px;
+	background-repeat: no-repeat;
+}
+#windows_8{
+	background-image: url('images/windows_8.png');
+	background-position: right top;
+	background-size:200px;
+	background-repeat:no-repeat;
+}
+#windows_10{
+	background-image: url('images/windows_10.png');
+	background-position: right top;
+	background-size:200px;
+	background-repeat:no-repeat;
+}
+.logo_windows_9{
+	float:right;
+	margin-left:20px;
+	padding:5px;
+	width:100px;
+	height:50px;
+}
+.windows_table{
+	margin: auto;
+	width:100px;
+	height:100px;
+	background-color:#8E8B88;
+	border: solid 2px black;
+	margin-top:20px;
+}
+.bill_gates{
+	margin-left: 600px;
+	width:200px;
+}
+section.windows_section{
+	background-image: url('images/fond.jpg');
+	background-size: 1900px;
+}
+windows_titre1{
+	font-weight: bold;
+	font-size: 75px;
+	color: white
+}
+section a{
+	color: white;
+	text-decoration: underline;
+}
+
+
+
+#ptittitre{
+	background-color: #3A5D9D;
+	text-align: center;
+}
+p{
+	text-align: center;
+	color: black;
+}
+
+html{
+	background-color:#3A5D9D;
+}
+body{
+	background-color:#3A5D9D;
+}
+#art{
+	background-color:white;
+	color:white;
+	font-family: sans-serif;
+	margin:100px;
+	border: 1px solid white;
+	line-height: 140%;
+}
+section{
+	background-color:#FEFEFF;
+}
+header{
+	background-color:#3A5D9D;
+	font-family: sans-serif;
+	color:white;
+	text-align:center;
+	border-bottom:3px solid white;
+}
+header div{
+	display:inline-block;
+}
+#grdtitre{
+	text-align:center;
+	background: red ;
+	text-decoration: underline;
+}
+#fond{
+	background-repeat: no-repeat;
+	float: left;
+	width: 280px;
+	height: 140px;
+}
+.para2{
+	background-color:lightgrey;
+}
+
+
+
+
+.sectionkelian{background-color:#3A5D9D; padding : 0;max-width:1700px; margin: auto;word-wrap:break-word}
+p {color:white;font-size:16px;text-align:left}
+
+#menu table tr td img {width: 100%;display: block;margin-left: auto;margin-right: auto}
+#menu table{margin-left: auto; margin-right: auto; background-color:lightgrey;max-width:1500px; margin: auto;}
+#menu {background-color:#3A5D9D;max-width:1500px; margin: auto;}
+#menu h1 {font-size:40px;color:white; background-color:red;}
+#menu table td{width:30%}
+
+#HTML {background-color:lightgrey;color:white;font-family: sans-serif;margin:100px;border:1px solid black}
+#HTML table, #HTML table td {border : 1px solid black;background-color: white;color: black;margin-left: auto;margin-right: auto;font-size:20px;text-align:center}
+#HTML ul {text-align:left}
+#HTML img {display: block;margin-left: auto;margin-right: auto}
+#HTML h1 {font-size:40px;color:white; background-color:red;text-align:center}
+#HTML h2 {font-size:30px;color:white; background-color:red;text-align:center}
+#HTML h3 {font-size:20px;text-align:center;text-decoration:underline}
+#HTML h4 {text-align:center}
+
+#CSS {background-color:lightgrey;color:white;font-family: sans-serif;margin:100px;border:1px solid black}
+#CSS img {display: block;margin-left: auto;margin-right: auto;}
+#CSS h1 {font-size:40px;color:white; background-color:red;text-align:center}
+#CSS h2 {font-size:30px;color:white; background-color:red;text-align:center}
+#CSS h3 {font-size:20px;text-align:center;text-decoration:underline}
+#CSS h4 {text-align:center}
+
+#SQL {background-color:lightgrey;color:white;font-family: sans-serif;margin:100px;border:1px solid black}
+#SQL table, #SQL table td {border : 1px solid black;background-color: white;color: black;margin-left: auto;margin-right: auto;font-size:20px;text-align:center}
+#SQL img {display: block;margin-left: auto;margin-right: auto}
+#SQL h1 {font-size:40px;color:white; background-color:red;text-align:center}
+#SQL h2 {font-size:30px;color:white; background-color:red;text-align:center}
+#SQL h3 {font-size:20px;text-align:center;text-decoration:underline}
+#SQL h4 {text-align:center}
+
+#photo1{max-width:100%;width:675px;height:450px}
+#photo2{max-width:100%;width:400px;height:600px}
+#photo3{max-width:100%}
+#photo4{max-width:100%}
+
+
+	p{
+		text-align:justify;
+	}
+	
+	section{
+	background-image:url('images/fond.jpg');
+	background-size:1700px;		
+	margin:auto;
+	max-width:1700px;
+	min-width:600px;	
+	background-color:#FEFEFF;
+	}
+}
